@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F6CF7832AF243C4005DDB81 /* FlowerClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3F6CF7822AF243C4005DDB81 /* FlowerClassifier.mlmodel */; };
 		3F84674F2AF14BEB00F1D821 /* MLUppgift5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84674E2AF14BEB00F1D821 /* MLUppgift5App.swift */; };
 		3F8467512AF14BEB00F1D821 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8467502AF14BEB00F1D821 /* ContentView.swift */; };
 		3F8467532AF14BEC00F1D821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8467522AF14BEC00F1D821 /* Assets.xcassets */; };
 		3F8467562AF14BEC00F1D821 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8467552AF14BEC00F1D821 /* Preview Assets.xcassets */; };
+		3F84675D2AF14C0C00F1D821 /* ImageClassification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84675C2AF14C0C00F1D821 /* ImageClassification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F6CF7822AF243C4005DDB81 /* FlowerClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FlowerClassifier.mlmodel; sourceTree = "<group>"; };
 		3F84674B2AF14BEB00F1D821 /* MLUppgift5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLUppgift5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F84674E2AF14BEB00F1D821 /* MLUppgift5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLUppgift5App.swift; sourceTree = "<group>"; };
 		3F8467502AF14BEB00F1D821 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3F8467522AF14BEC00F1D821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F8467552AF14BEC00F1D821 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F84675C2AF14C0C00F1D821 /* ImageClassification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageClassification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				3F84674E2AF14BEB00F1D821 /* MLUppgift5App.swift */,
 				3F8467502AF14BEB00F1D821 /* ContentView.swift */,
+				3F84675C2AF14C0C00F1D821 /* ImageClassification.swift */,
+				3F6CF7822AF243C4005DDB81 /* FlowerClassifier.mlmodel */,
 				3F8467522AF14BEC00F1D821 /* Assets.xcassets */,
 				3F8467542AF14BEC00F1D821 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6CF7832AF243C4005DDB81 /* FlowerClassifier.mlmodel in Sources */,
+				3F84675D2AF14C0C00F1D821 /* ImageClassification.swift in Sources */,
 				3F8467512AF14BEB00F1D821 /* ContentView.swift in Sources */,
 				3F84674F2AF14BEB00F1D821 /* MLUppgift5App.swift in Sources */,
 			);
